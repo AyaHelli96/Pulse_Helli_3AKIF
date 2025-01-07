@@ -1,0 +1,31 @@
+:root {
+    --pulse-color-page-background: #eafaf1;
+    --pulse-color-card-background: #d6dae5;
+    --pulse-color-faq-background: #fcfcfc;
+    --pulse-color-headings: #00ad6a;
+    --pulse-color-buttons: #1fe374;
+    --pulse-color-dark: #080c16;
+}
+
+body {
+    color: var(--pulse-color-dark);
+    background: var(--pulse-color-page-background);
+}
+
+.section-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.faq-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.faq-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
