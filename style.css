@@ -22,10 +22,86 @@ body {
 }
 .faq-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.faq-item:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+.custom-margin {
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
+.faq-S{
+background-color: white;
+
+}
+.btn-custom {
+    display: inline-block;
+    background-color: #1fe374;  /* Grüne Hintergrundfarbe */
+    color: #000;  /* Schwarzer Text */
+    padding: 15px 40px;  /* 15px oben/unten, 40px links/rechts */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;  /* Abgerundete Ecken */
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #17c865;  /* Dunkleres Grün beim Hover */
+}
+.footer-custom {
+    background-color: #080c16;
+    padding: 60px 0;
+}
+
+.btn-custom {
+    display: inline-block;
+    background-color: #1fe374;
+    color: #000;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #17c865;
+}
+
+.btn-contact {
+    display: inline-block;
+    color: #1fe374;
+    border: 2px solid #1fe374;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #1fe374;
+    color: #000;
+}
+
+.footer-custom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-custom a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.text-secondary a {
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+.text-secondary a:hover {
+    color: #1fe374;
+}
+
